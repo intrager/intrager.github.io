@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://intrager.github.io/tag/java/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://intrager.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-12-26T00:22:23+09:00</updated>
+  <updated>2021-12-26T05:31:16+09:00</updated>
   <id>https://intrager.github.io/tag/java/feed.xml</id>
 
   
@@ -44,37 +44,6 @@
 &lt;/ul&gt;
 
 &lt;p&gt;일단, 자바 기반으로 웹 애플리케이션을 개발하면 뭐가 좋나요?&lt;/p&gt;
-
-&lt;p&gt;객체지향 프로그래밍 언어인 자바를 이용함으로써 재사용성, 신뢰성이 높은 웹 애플리케이션 개발이 가능
-다양한 자바 기반 class library와 플랫폼들을 개발에 활용 가능함.
-멀티 스레드 방식으로 동작하여 서버의 자원을 효율적으로 사용할 수도 있으며, 빠른 응답처리를 제공함.
-다수의 웹 브라우저가 같은 요청을 하더라도 관련된 스크립트에 대하여 멀티 스레드로 처리하며, 메모리 점유율이 낮음
-스크립트 방식을 사용하여 개발이 간편할 뿐만 아니라, 컴파일된 코드 방식으로 개발이 가능하여 성능과 보안성이 높은 웹 애플리케이션 개발 가능함. ex) 관련 기술들 - Servlet, JSP, EJB, JSEE
-CGI 개발의 한계
-CGI가 뭘까
-CGI는 Common Gateway Interface의 약어로, Perl Script, C, Python, PHP 등으로 개발된 프로세스 기반 웹 애플리케이션 개발 기술
-특징
-다수의 웹 브라우저가 같은 요청을 하는 경우, 각 요청을 위한 프로세스를 수행하기 때문에 메모리 사용 증대로 인한 시스템 성능 저하가 유발됨.
-CGI 방식으로 개발한 애플리케이션은 웹 서버가 요청하면 개별 프로세스(process)를 생성하여 이를 처리함.
-단점
-웹 페이지의 구성요소들 간의 구조를 정의하는데 사용되는 HTML 처리 및 유지보수가 어려움
-CGI 방식은 개발 언어에 따라 이식성 문제가 발생함. 예를 들어, C로 작성된 윈도우용 CGI 프로그램은 리눅스나 맥에서는 실행되지 않기 때문에 다시 컴파일 후 배포를 해야 함.
-Servlet
-정의
-요청-응답 프로그래밍 모델 방식으로 접근되는 응용 프로그램들을 제공하는 서버의 유용성을 증대하기 위해 사용되는 Java 언어로 작성된 클래스들
-일반적으로 Java Servlet API를 준수하는 자바 엔터프라이즈 에디션(Java EE)에 포함된 자바 클래스들
-특징
-Servlet은 thread 기반으로 웹 애플리케이션을 개발하기 때문에, 요청이 증가하여도 성능 저하를 유발하지 않음.
-이때 thread란 가장 작은 처리 단위이며, 일반적으로 프로세스의 부분집합(subset)으로 존재함. multithread(멀티 스레드)는 하나의 process안에 다수의 thread가 존재하는 것. 같은 프로세스에 포함된 스레드들은 메모리, 상태 정보 등 다양한 자원을 공유하며, 주소 공간을 공유함. 또한 스레드 간 통신이 쉽고, 신속한 context switching이 가능
-서블릿은 자바를 기반으로 하고 있다.
-자바가 플랫폼 독립성을 제공함으로써, servlet으로 개발된 웹 애플리케이션은 플랫폼에 독립적이고, 이식성 문제를 야기하지 않게 된다.
-servlet은 다양한 형태의 요청에 대하여 응답할 수 있지만, 주로 웹 서버들에 의해 제공되는 응용 프로그램을 확장하는 데에 사용되며, 주로 http와 함께 사용되기 때문에 ‘http servlet’이라는 의미로 사용되기도 함. Java applet은 클라이언트에서 실행되지만 servlet은 서버에서 실행되기 때문에 서버에서 실행되는 applet으로 생각할 수 있겠다.
-단점
-Servlet은 향상된 성능을 제공하지만, 웹 페이지 구성 요소들 간 구조를 정의하는 데에 사용되는 HTML 처리가 쉽지 않고, 유지보수가 어렵다.
-JSP
-정의
-향상된 성능을 제공하면서 HTML을 직접 사용할 수 있는 자바 기반 웹 애플리케이션 개발용 스크립트 언어
-지시자, 스크립팅 요소, JSP 주석과 표준 액션 등과 같은 JSP 기본 요소와 HTML 태그 및 HTML 주석 등으로 구성됨&lt;/p&gt;
 
 &lt;p&gt;내용 출처 : JSP프로그래밍(21-2학기)유응구교수님 강의 내용 中 일부 요약&lt;/p&gt;</content>
 
@@ -118,16 +87,11 @@ JSP
 
 &lt;p&gt;Servlet/JSP 컨테이너&lt;/p&gt;
 
-&lt;p&gt;자바 기반으로 웹 애플리케이션에게 실행 환경을 제공하는 플랫폼
-JSP 페이지를 서블릿 코드로 변환하고, 컴파일된 서블릿을 실행해주는 역할을 담당하는 소프트웨어. Servlet, JSP를 지원함.
-서블릿의 관리와 실행뿐 아니라 / 서블릿이 웹 서버와 손쉽게 통신할 수 있도록 지원 / 서블릿의 생명 주기(life cycle)를 관리 / 멀티스레딩 지원 / 또한 배포 서술자를 이용한 보안 관리 지원 / JSP의 서블릿으로의 변환 지원
-EJB 컨테이너
-EJB(Enterprise Java Beans)는 비즈니스 로직을 구현하는 서버측 component를 의미하며, 트랜잭션/보안/재사용 가능한 컴포넌트 생성을 지원
-Servlet/JSP 컨테이너 기능에 EJB 실행 환경까지 제공하는 플랫폼
-J2EE 서버
-높은 보안성과 신뢰성을 가져야 하는 기업용 애플리케이션을 개발하는 데에 필요한 기술들을 집대성해놓은 플랫폼
-개발자들에게 개발 시간은 단축시키고, 애플리케이션의 복잡도는 낮추며, 성능은 향상시킬 수 있는 강력한 API 집합을 제공하는 것을 목표로 함
-Servlet, JSP, EJB 뿐만 아니라 JMS, JNDI, JTA, Web Services(XML, SOAP … etc) 등 다양한 사양서의 내용을 지원&lt;/p&gt;
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;syntaxHighlight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;hello world&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;내용 출처 : JSP프로그래밍(21-2학기)유응구교수님 강의 내용 中 일부 요약&lt;/p&gt;</content>
 
