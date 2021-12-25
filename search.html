@@ -11,7 +11,7 @@
 
 
 
-    <title>All Posts</title>
+    <title>Search Result</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -49,19 +49,19 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="꾸준히 수련하는 개발자의 기록 블로그" />
     <link rel="shortcut icon" href="https://intrager.github.io/assets/built/images/favicon.ico" type="image/png" />
-    <link rel="canonical" href="https://intrager.github.io/archive" />
+    <link rel="canonical" href="https://intrager.github.io/search" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="Jeet Kune Coding" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="All Posts" />
+    <meta property="og:title" content="Search Result" />
     <meta property="og:description" content="꾸준히 수련하는 개발자의 기록 블로그" />
-    <meta property="og:url" content="https://intrager.github.io/archive" />
+    <meta property="og:url" content="https://intrager.github.io/search" />
     <meta property="og:image" content="https://intrager.github.io/assets/built/images/blog-cover1.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="All Posts" />
+    <meta name="twitter:title" content="Search Result" />
     <meta name="twitter:description" content="꾸준히 수련하는 개발자의 기록 블로그" />
     <meta name="twitter:url" content="https://intrager.github.io/" />
     <meta name="twitter:image" content="https://intrager.github.io/assets/built/images/blog-cover1.jpg" />
@@ -81,7 +81,7 @@
         "name": "Jeet Kune Coding",
         "logo": "https://intrager.github.io/assets/built/images/logo.jpg"
     },
-    "url": "https://intrager.github.io/archive",
+    "url": "https://intrager.github.io/search",
     "image": {
         "@type": "ImageObject",
         "url": "https://intrager.github.io/assets/built/images/blog-cover1.jpg",
@@ -90,7 +90,7 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://intrager.github.io/archive"
+        "@id": "https://intrager.github.io/search"
     },
     "description": "꾸준히 수련하는 개발자의 기록 블로그"
 }
@@ -105,7 +105,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="All Posts" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Search Result" href="/feed.xml" />
 
 
 </head>
@@ -166,43 +166,53 @@ into the {body} of the default.hbs template -->
         <article class="post-full  post page no-image">
 
             <header class="post-full-header">
-                <h1 class="post-full-title">All Posts</h1>
+                <h1 class="post-full-title">Search Result</h1>
             </header>
 
             
 
             <section class="post-full-content">
-                <div class="well article">
+                <form action="/search" method="get" hidden="hidden">
+    <label for="search-box"></label>
+    <input type="text" id="search-box" name="query">
+</form>
 
-    
-        <h2>2021</h2>
-        <ul>
-    
-    <li><span class="post-date">
-        
-        2021-09-23 </span><a href="./java-based-application" target="_blank">자바 기반 웹 애플리케이션 개발</a></li>
+<ul class="mylist" id="search-results"></ul>
 
+<script>
+    window.store = {
     
-        
-        
-        
+    "java-based-application": {
+        "title": "자바 기반 웹 애플리케이션 개발",
+            "author": "bruceHan",
+            "category": "",
+            "content": "Java / JSP / Servlet     자바 기반 웹 컨테이너들 정리    자바 기반 웹 애플리케이션 개발일단, 자바 기반으로 웹 애플리케이션을 개발하면 뭐가 좋나요?내용 출처 : JSP프로그래밍(21-2학기)유응구교수님 강의 내용 中 일부 요약",
+        "url": "/java-based-application"
+    }
+    ,
     
-    <li><span class="post-date">
-        
-        2021-09-16 </span><a href="./java-container" target="_blank">자바 기반 웹 컨테이너들 정리</a></li>
-
+    "java-container": {
+        "title": "자바 기반 웹 컨테이너들 정리",
+            "author": "bruceHan",
+            "category": "",
+            "content": "Java / JSP / Servlet     자바 기반 웹 컨테이너들 정리    자바 기반 웹 애플리케이션 개발Servlet/JSP 컨테이너    function syntaxHighlight(code) {    var foo = \"hello world\";    var bar = 100;}내용 출처 : JSP프로그래밍(21-2학기)유응구교수님 강의 내용 中 일부 요약",
+        "url": "/java-container"
+    }
+    ,
     
-        
-        
-        
+    "web-basic1": {
+        "title": "웹(WEB) 관련 기초 지식들 - 1",
+            "author": "bruceHan",
+            "category": "",
+            "content": "정적 웹 페이지 vs 동적 웹 페이지정적 웹 페이지사용자의 요청 이전에 만들어져서 제공되는 웹 페이지항상 동일한 내용을 제공한다.웹 서버가 제공한다.동적 웹 페이지사용자의 요청 시점에서 요청된 매개변수를 활용하여, 실행시간에 생성되는 웹 페이지요청 매개변수에 따라 다른 내용을 제공한다.웹 컨테이너가 웹 애플리케이션에게 요청하여 제공한다.웹 (WWW, WorldWideWeb)정의인터넷상에서 제공되는 서비스 중 하나로, 인터넷에 연결된 컴퓨터들을 통해 사람들이 정보를 공유할 수 있는 전세계적인 분산 정보 시스템인터넷을 통해 접근되는 (상호 링크된) HyperText 문서들을 제공하는 서비스 시스템을 의미한다.HyperText 또는 HyperMedia는 HyperLink를 포함하고 있는 문서를 의미한다.HyperLink는 서비스 사용자가 직접 선택하거나 자동적으로 해당 문서 또는 문서 내 특정 요소 위치로 이동하는데 사용되는 참조를 의미한다.동작클라이언트의 요청과 서버의 응답을 처리하는 클라이언트-서버 방식으로 동작한다.사용자는 웹 브라우저를 이용하여 필요한 자원을 웹 서버에게 요청하고, 웹 서버는 해당 자원을 찾아 응답을 만든다.  이를 웹 브라우저에게 전송하면, 웹 브라우저는 전송받은 응답을 처리하여 사용자에게 자원을 제공한다.클라이언트-서버 모델정의서비스나 자원을 제공하는 서버와 서비스를 요청하는 클라이언트로 나누어서 작업(task) 또는 작업 부하(workload)들을 처리하는 분산 애플리케이션 구조동작사용자는 서버와 통신하기 위해 먼저 클라이언트측(clinet-side) 애플리케이션을 배포받아 설치한 후, 클라이언트측 애플리케이션으로 서비스를 요청한다. 서버는 이 요청을 처리하여 응답한다.클라이언트 측 페이지 동작 원리출처 : 인덕대학교 컴퓨터소프트웨어학과 유응구 교수님 (JSP 프로그래밍)강의 中전통적인 클라이언트-서버 모델의 문제점클라이언트 S/W가 변경되는 경우 재배포와 설치가 필요하다.사용자의 수가 많은 경우 재배포에 소요되는 비용이 커질 뿐만 아니라 운영체제에 따라 다양한 버전의 클라이언트 S/W 개발이 요구되는 문제가 발생한다.예를 들면, 클라이언트 S/W의 메뉴가 변경되면 클라이언트 S/W를 운영체제별로 수정해야 하고, 재배포와 재설치를 수행해야 한다.출처 : 인덕대학교 컴퓨터소프트웨어학과 유응구 교수님 (JSP 프로그래밍)강의 中해결방법모든 클라이언트 시스템에 존재하는(편재성이 있는) 클라이언트 S/W를 이용하고, 클라이언트 S/W 상에서 애플리케이션이 동작하는 모델로 전환한다.ex) WWW 서비스 - http 기반 클라이언트-서버 모델을 사용한다. 클라이언트 S/W로 웹 브라우저를 사용한다. 웹 브라우저를 통해 서버에게 서비스를 요청하고, 서버는 이를 처리하여 응답하며, 웹 브라우저는 응답을 출력한다.WWW 서비스 동작웹 클라이언트(웹 브라우저)웹 서비스를 요청하고 서버가 보내온 응답을 처리하여 출력하는 애플리케이션 또는 시스템요청은 해당 자원의 URL을 주소표시줄에 입력하거나 URL이 포함된 하이퍼링크를 클릭하면 된다.웹 서버웹 서비스를 제공하는 애플리케이션 또는 시스템요청된 자원을 찾아서 http 응답을 클라이언트에게 제공URL(Uniform Resource Locator)정의자원의 위치를 기술하는데 사용되는 식별자(Identifier)일반적인 구문 구조:scheme_name에는 http, ftp, news, mailto 등이 나타날 수 있고, scheme_specific_part는 scheme_name에 따라 다른 내용을 갖는다. ex) mailto:brucehan@kakao.comWWW 구문 구조://:/? : 웹 서버의 심볼릭 이름 : 요청한 자원의 경로 : 웹 애플리케이션에게 전송되어야하는 매개변수와 값들내용 출처 : JSP프로그래밍(21-2학기)유응구교수님 강의 내용 中 일부 요약",
+        "url": "/web-basic1"
+    }
     
-    <li><span class="post-date">
-        
-        2021-09-02 </span><a href="./web-basic1" target="_blank">웹(WEB) 관련 기초 지식들 - 1</a></li>
-
-</ul>
-</div>
-
+    
+    };
+</script>
+<script src="assets/js/lunr.js"></script>
+<script src="assets/js/search.js"></script>
             </section>
 
         </article>
