@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://intrager.github.io/tag/cs/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://intrager.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-12-26T15:40:19+09:00</updated>
+  <updated>2021-12-26T16:07:03+09:00</updated>
   <id>https://intrager.github.io/tag/cs/feed.xml</id>
 
   
@@ -34,8 +34,8 @@
     <entry>
       <title type="html">웹(WEB) 관련 기초 지식들 - 1</title>
       <link href="https://intrager.github.io/web-basic1" rel="alternate" type="text/html" title="웹(WEB) 관련 기초 지식들 - 1" />
-      <published>2021-12-24T21:12:34+09:00</published>
-      <updated>2021-12-24T21:12:34+09:00</updated>
+      <published>2021-09-02T21:01:01+09:00</published>
+      <updated>2021-09-02T21:01:01+09:00</updated>
       <id>https://intrager.github.io/web-basic1</id>
       <content type="html" xml:base="https://intrager.github.io/web-basic1">&lt;p&gt;정적 웹 페이지 vs 동적 웹 페이지
 정적 웹 페이지

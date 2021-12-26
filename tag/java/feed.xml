@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://intrager.github.io/tag/java/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://intrager.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-12-26T15:40:19+09:00</updated>
+  <updated>2021-12-26T16:07:03+09:00</updated>
   <id>https://intrager.github.io/tag/java/feed.xml</id>
 
   
@@ -32,18 +32,24 @@
 
   
     <entry>
-      <title type="html">자바 기반 웹 애플리케이션 개발</title>
-      <link href="https://intrager.github.io/java-based-application" rel="alternate" type="text/html" title="자바 기반 웹 애플리케이션 개발" />
-      <published>2021-12-24T21:12:34+09:00</published>
-      <updated>2021-12-24T21:12:34+09:00</updated>
-      <id>https://intrager.github.io/java-based-application</id>
-      <content type="html" xml:base="https://intrager.github.io/java-based-application">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Java / JSP / Servlet &lt;/span&gt;&lt;/p&gt;
+      <title type="html">자바 기반 웹 컨테이너들 정리</title>
+      <link href="https://intrager.github.io/java-container" rel="alternate" type="text/html" title="자바 기반 웹 컨테이너들 정리" />
+      <published>2021-09-23T21:01:01+09:00</published>
+      <updated>2021-09-23T21:01:01+09:00</updated>
+      <id>https://intrager.github.io/java-container</id>
+      <content type="html" xml:base="https://intrager.github.io/java-container">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Java / JSP / Servlet &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./java-container&quot;&gt;자바 기반 웹 컨테이너들 정리&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./java-based-application&quot;&gt;자바 기반 웹 애플리케이션 개발&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;일단, 자바 기반으로 웹 애플리케이션을 개발하면 뭐가 좋나요?&lt;/p&gt;
+&lt;p&gt;Servlet/JSP 컨테이너&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;syntaxHighlight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;hello world&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;내용 출처 : JSP프로그래밍(21-2학기)유응구교수님 강의 내용 中 일부 요약&lt;/p&gt;</content>
 
@@ -74,24 +80,18 @@
     </entry>
   
     <entry>
-      <title type="html">자바 기반 웹 컨테이너들 정리</title>
-      <link href="https://intrager.github.io/java-container" rel="alternate" type="text/html" title="자바 기반 웹 컨테이너들 정리" />
-      <published>2021-12-24T21:12:34+09:00</published>
-      <updated>2021-12-24T21:12:34+09:00</updated>
-      <id>https://intrager.github.io/java-container</id>
-      <content type="html" xml:base="https://intrager.github.io/java-container">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Java / JSP / Servlet &lt;/span&gt;&lt;/p&gt;
+      <title type="html">자바 기반 웹 애플리케이션 개발</title>
+      <link href="https://intrager.github.io/java-based-application" rel="alternate" type="text/html" title="자바 기반 웹 애플리케이션 개발" />
+      <published>2021-09-16T21:01:01+09:00</published>
+      <updated>2021-09-16T21:01:01+09:00</updated>
+      <id>https://intrager.github.io/java-based-application</id>
+      <content type="html" xml:base="https://intrager.github.io/java-based-application">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Java / JSP / Servlet &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./java-container&quot;&gt;자바 기반 웹 컨테이너들 정리&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./java-based-application&quot;&gt;자바 기반 웹 애플리케이션 개발&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Servlet/JSP 컨테이너&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;syntaxHighlight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;hello world&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;일단, 자바 기반으로 웹 애플리케이션을 개발하면 뭐가 좋나요?&lt;/p&gt;
 
 &lt;p&gt;내용 출처 : JSP프로그래밍(21-2학기)유응구교수님 강의 내용 中 일부 요약&lt;/p&gt;</content>
 
