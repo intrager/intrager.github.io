@@ -4,9 +4,9 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>https://intrager.github.io/java-based-application.html</loc>
+        <loc>https://intrager.github.io/java-container.html</loc>
         
-        <lastmod>2021-09-23T21:12:34+09:00</lastmod>
+        <lastmod>2021-12-24T21:12:34+09:00</lastmod>
         
 
         
@@ -20,9 +20,9 @@
     </url>
     
     <url>
-        <loc>https://intrager.github.io/java-container.html</loc>
+        <loc>https://intrager.github.io/java-based-application.html</loc>
         
-        <lastmod>2021-09-16T21:12:34+09:00</lastmod>
+        <lastmod>2021-12-24T21:12:34+09:00</lastmod>
         
 
         
@@ -38,7 +38,7 @@
     <url>
         <loc>https://intrager.github.io/web-basic1.html</loc>
         
-        <lastmod>2021-09-02T21:12:34+09:00</lastmod>
+        <lastmod>2021-12-24T21:12:34+09:00</lastmod>
         
 
         

@@ -8,25 +8,6 @@
     
       
       <item>
-        <title>자바 기반 웹 애플리케이션 개발</title>
-        
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Java / JSP / Servlet &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./java-container&quot;&gt;자바 기반 웹 컨테이너들 정리&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./java-based-application&quot;&gt;자바 기반 웹 애플리케이션 개발&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        
-        <pubDate>Thu, 23 Sep 2021 21:12:34 +0900</pubDate>
-        <link>
-        https://intrager.github.io/java-based-application</link>
-        <guid isPermaLink="true">https://intrager.github.io/java-based-application</guid>
-      </item>
-      
-    
-      
-      <item>
         <title>자바 기반 웹 컨테이너들 정리</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Java / JSP / Servlet &lt;/span&gt;&lt;/p&gt;
@@ -37,10 +18,29 @@
 
 </description>
         
-        <pubDate>Thu, 16 Sep 2021 21:12:34 +0900</pubDate>
+        <pubDate>Fri, 24 Dec 2021 21:12:34 +0900</pubDate>
         <link>
         https://intrager.github.io/java-container</link>
         <guid isPermaLink="true">https://intrager.github.io/java-container</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>자바 기반 웹 애플리케이션 개발</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Java / JSP / Servlet &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./java-container&quot;&gt;자바 기반 웹 컨테이너들 정리&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./java-based-application&quot;&gt;자바 기반 웹 애플리케이션 개발&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Fri, 24 Dec 2021 21:12:34 +0900</pubDate>
+        <link>
+        https://intrager.github.io/java-based-application</link>
+        <guid isPermaLink="true">https://intrager.github.io/java-based-application</guid>
       </item>
       
     
@@ -60,7 +60,7 @@
 
 </description>
         
-        <pubDate>Thu, 02 Sep 2021 21:12:34 +0900</pubDate>
+        <pubDate>Fri, 24 Dec 2021 21:12:34 +0900</pubDate>
         <link>
         https://intrager.github.io/web-basic1</link>
         <guid isPermaLink="true">https://intrager.github.io/web-basic1</guid>
