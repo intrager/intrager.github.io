@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://intrager.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://intrager.github.io/" rel="alternate" type="text/html" /><updated>2021-12-28T05:41:38+00:00</updated><id>https://intrager.github.io/feed.xml</id><title type="html">Jeet Kune Coding</title><subtitle>꾸준히 수련하는 개발자의 기록 블로그</subtitle><entry><title type="html">자바 기반 웹 컨테이너들 정리</title><link href="https://intrager.github.io/java-container" rel="alternate" type="text/html" title="자바 기반 웹 컨테이너들 정리" /><published>2021-09-23T12:01:01+00:00</published><updated>2021-09-23T12:01:01+00:00</updated><id>https://intrager.github.io/java-container</id><content type="html" xml:base="https://intrager.github.io/java-container">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Java / JSP / Servlet &lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://intrager.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://intrager.github.io/" rel="alternate" type="text/html" /><updated>2021-12-28T06:25:17+00:00</updated><id>https://intrager.github.io/feed.xml</id><title type="html">Jeet Kune Coding</title><subtitle>꾸준히 수련하는 개발자의 기록 블로그</subtitle><entry><title type="html">자바 기반 웹 컨테이너들 정리</title><link href="https://intrager.github.io/java-container" rel="alternate" type="text/html" title="자바 기반 웹 컨테이너들 정리" /><published>2021-09-23T12:01:01+00:00</published><updated>2021-09-23T12:01:01+00:00</updated><id>https://intrager.github.io/java-container</id><content type="html" xml:base="https://intrager.github.io/java-container">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Java / JSP / Servlet &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./java-container&quot;&gt;자바 기반 웹 컨테이너들 정리&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./java-based-application&quot;&gt;자바 기반 웹 애플리케이션 개발&lt;/a&gt;&lt;/li&gt;
@@ -20,9 +20,11 @@
 
 &lt;p&gt;일단, 자바 기반으로 웹 애플리케이션을 개발하면 뭐가 좋나요?&lt;/p&gt;
 
-&lt;p&gt;내용 출처 : JSP프로그래밍(21-2학기)유응구교수님 강의 내용 中 일부 요약&lt;/p&gt;</content><author><name>bruceHan</name></author><category term="java" /><summary type="html">Java / JSP / Servlet 자바 기반 웹 컨테이너들 정리 자바 기반 웹 애플리케이션 개발</summary></entry><entry><title type="html">웹(WEB) 관련 기초 지식들 - 1</title><link href="https://intrager.github.io/web-basic1" rel="alternate" type="text/html" title="웹(WEB) 관련 기초 지식들 - 1" /><published>2021-09-02T12:01:01+00:00</published><updated>2021-09-02T12:01:01+00:00</updated><id>https://intrager.github.io/web-basic1</id><content type="html" xml:base="https://intrager.github.io/web-basic1">&lt;h1 id=&quot;정적-웹-페이지-vs-동적-웹-페이지&quot;&gt;&lt;center&gt;정적 웹 페이지 vs 동적 웹 페이지&lt;/center&gt;&lt;/h1&gt;
+&lt;p&gt;내용 출처 : JSP프로그래밍(21-2학기)유응구교수님 강의 내용 中 일부 요약&lt;/p&gt;</content><author><name>bruceHan</name></author><category term="java" /><summary type="html">Java / JSP / Servlet 자바 기반 웹 컨테이너들 정리 자바 기반 웹 애플리케이션 개발</summary></entry><entry><title type="html">웹(WEB) 관련 기초 지식들 - 1</title><link href="https://intrager.github.io/web-basic1" rel="alternate" type="text/html" title="웹(WEB) 관련 기초 지식들 - 1" /><published>2021-09-02T12:01:01+00:00</published><updated>2021-09-02T12:01:01+00:00</updated><id>https://intrager.github.io/web-basic1</id><content type="html" xml:base="https://intrager.github.io/web-basic1">&lt;hr /&gt;
 
-&lt;h2 id=&quot;정적-웹-페이지&quot;&gt;정적 웹 페이지&lt;/h2&gt;
+&lt;h1 id=&quot;정적-웹-페이지-vs-동적-웹-페이지&quot;&gt;&lt;center&gt;정적 웹 페이지 vs 동적 웹 페이지&lt;/center&gt;&lt;/h1&gt;
+
+&lt;h3 id=&quot;정적-웹-페이지&quot;&gt;정적 웹 페이지&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;사용자의 요청 이전에 만들어져서 제공되는 웹 페이지&lt;/li&gt;
@@ -30,7 +32,7 @@
   &lt;li&gt;웹 서버가 제공한다.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;동적-웹-페이지&quot;&gt;동적 웹 페이지&lt;/h2&gt;
+&lt;h3 id=&quot;동적-웹-페이지&quot;&gt;동적 웹 페이지&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;사용자의 요청 시점에서 요청된 매개변수를 활용하여, 실행시간에 생성되는 웹 페이지&lt;/li&gt;
@@ -42,7 +44,7 @@
 
 &lt;h1 id=&quot;웹-www-worldwideweb&quot;&gt;&lt;center&gt;웹 (WWW, WorldWideWeb)&lt;/center&gt;&lt;/h1&gt;
 
-&lt;h2 id=&quot;정의&quot;&gt;정의&lt;/h2&gt;
+&lt;h3 id=&quot;정의&quot;&gt;정의&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;인터넷상에서 제공되는 서비스 중 하나로, 인터넷에 연결된 컴퓨터들을 통해 사람들이 정보를 공유할 수 있는 전세계적인 분산 정보 시스템&lt;/li&gt;
@@ -51,7 +53,7 @@
   &lt;li&gt;HyperLink는 서비스 사용자가 직접 선택하거나 자동적으로 해당 문서 또는 문서 내 특정 요소 위치로 이동하는데 사용되는 참조를 의미한다.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;동작&quot;&gt;동작&lt;/h2&gt;
+&lt;h3 id=&quot;동작&quot;&gt;동작&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;클라이언트의 요청과 서버의 응답을 처리하는 클라이언트-서버 방식으로 동작한다.&lt;/li&gt;
@@ -60,54 +62,78 @@
 
 &lt;hr /&gt;
 &lt;h1 id=&quot;클라이언트-서버-모델&quot;&gt;&lt;center&gt;클라이언트-서버 모델&lt;/center&gt;&lt;/h1&gt;
-&lt;h2 id=&quot;정의-1&quot;&gt;정의&lt;/h2&gt;
+&lt;h3 id=&quot;정의-1&quot;&gt;정의&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;서비스나 자원을 제공하는 서버와 서비스를 요청하는 클라이언트로 나누어서 작업(task) 또는 작업 부하(workload)들을 처리하는 분산 애플리케이션 구조&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;동작-1&quot;&gt;동작&lt;/h2&gt;
+&lt;h3 id=&quot;동작-1&quot;&gt;동작&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;사용자는 서버와 통신하기 위해 먼저 클라이언트측(clinet-side) 애플리케이션을 배포받아 설치한 후, 클라이언트측 애플리케이션으로 서비스를 요청한다. 서버는 이 요청을 처리하여 응답한다.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;클라이언트-측-페이지-동작-원리&quot;&gt;클라이언트 측 페이지 동작 원리&lt;/h2&gt;
+&lt;h3 id=&quot;클라이언트-측-페이지-동작-원리&quot;&gt;클라이언트 측 페이지 동작 원리&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/server1.JPG&quot; alt=&quot;server1&quot; title=&quot;To go server1 image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../assets/images/web-basic-server1.JPG&quot; alt=&quot;출처 : 인덕대학교 컴퓨터소프트웨어학과 유응구 교수님 (JSP 프로그래밍)강의 참고&quot; title=&quot;To go server1 image&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;출처 : 인덕대학교 컴퓨터소프트웨어학과 유응구 교수님 (JSP 프로그래밍)강의 中
-전통적인 클라이언트-서버 모델의 문제점
-클라이언트 S/W가 변경되는 경우 재배포와 설치가 필요하다.
-사용자의 수가 많은 경우 재배포에 소요되는 비용이 커질 뿐만 아니라 운영체제에 따라 다양한 버전의 클라이언트 S/W 개발이 요구되는 문제가 발생한다.
-예를 들면, 클라이언트 S/W의 메뉴가 변경되면 클라이언트 S/W를 운영체제별로 수정해야 하고, 재배포와 재설치를 수행해야 한다.&lt;/p&gt;
+&lt;h3 id=&quot;전통적인-클라이언트-서버-모델의-문제점&quot;&gt;전통적인 클라이언트-서버 모델의 문제점&lt;/h3&gt;
 
-&lt;p&gt;출처 : 인덕대학교 컴퓨터소프트웨어학과 유응구 교수님 (JSP 프로그래밍)강의 中
-해결방법
-모든 클라이언트 시스템에 존재하는(편재성이 있는) 클라이언트 S/W를 이용하고, 클라이언트 S/W 상에서 애플리케이션이 동작하는 모델로 전환한다.
-ex) WWW 서비스 - http 기반 클라이언트-서버 모델을 사용한다. 클라이언트 S/W로 웹 브라우저를 사용한다. 웹 브라우저를 통해 서버에게 서비스를 요청하고, 서버는 이를 처리하여 응답하며, 웹 브라우저는 응답을 출력한다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;클라이언트 S/W가 변경되는 경우 재배포와 설치가 필요하다.&lt;/li&gt;
+  &lt;li&gt;사용자의 수가 많은 경우, 재배포에 소요되는 비용이 커질 뿐만 아니라 운영체제에 따라 다양한 버전의 클라이언트 S/W 개발이 요구되는 문제가 발생한다.&lt;/li&gt;
+  &lt;li&gt;예를 들면, 클라이언트 S/W의 메뉴가 변경되면 클라이언트 S/W를 운영체제별로 수정해야 하고, 재배포와 재설치를 수행해야 한다.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;WWW 서비스 동작&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../assets/images/web-basic-server2.jpg&quot; alt=&quot;출처 : 인덕대학교 컴퓨터소프트웨어학과 유응구 교수님 (JSP 프로그래밍)강의 참고&quot; title=&quot;To go server2 image&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;웹 클라이언트(웹 브라우저)
-웹 서비스를 요청하고 서버가 보내온 응답을 처리하여 출력하는 애플리케이션 또는 시스템
-요청은 해당 자원의 URL을 주소표시줄에 입력하거나 URL이 포함된 하이퍼링크를 클릭하면 된다.
-웹 서버
-웹 서비스를 제공하는 애플리케이션 또는 시스템
-요청된 자원을 찾아서 http 응답을 클라이언트에게 제공&lt;/p&gt;
+&lt;h3 id=&quot;해결방법&quot;&gt;해결방법&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;모든 클라이언트 시스템에 존재하는(편재성이 있는) 클라이언트 S/W를 이용하고, 클라이언트 S/W 상에서 애플리케이션이 동작하는 모델로 전환한다.&lt;/li&gt;
+  &lt;li&gt;ex) WWW 서비스 - http 기반 클라이언트-서버 모델을 사용한다. 클라이언트 S/W로 웹 브라우저를 사용한다. 웹 브라우저를 통해 서버에게 서비스를 요청하고, 서버는 이를 처리 후 응답하며, 웹 브라우저는 응답을 출력한다.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;URL(Uniform Resource Locator)
-정의
-자원의 위치를 기술하는데 사용되는 식별자(Identifier)
-일반적인 구문 구조&lt;/p&gt;
-&lt;scheme_name&gt;:&lt;scheme_specific_part&gt;
-scheme_name에는 http, ftp, news, mailto 등이 나타날 수 있고, scheme_specific_part는 scheme_name에 따라 다른 내용을 갖는다. ex) mailto:brucehan@kakao.com
-WWW 구문 구조
-&lt;http&gt;://&lt;domain_name&gt;:&lt;port_number&gt;/&lt;file_path&gt;?&lt;search_part&gt;
-&lt;domain_name&gt; : 웹 서버의 심볼릭 이름
-&lt;file_path&gt; : 요청한 자원의 경로
-&lt;search_part&gt; : 웹 애플리케이션에게 전송되어야하는 매개변수와 값들
+&lt;p&gt;&lt;img src=&quot;../../assets/images/web-basic-server3.jpg&quot; alt=&quot;출처 : 인덕대학교 컴퓨터소프트웨어학과 유응구 교수님 (JSP 프로그래밍)강의 참고&quot; title=&quot;To go server3 image&quot; /&gt;&lt;/p&gt;
 
+&lt;hr /&gt;
 
+&lt;h1 id=&quot;www-서비스-동작&quot;&gt;&lt;center&gt;WWW 서비스 동작&lt;/center&gt;&lt;/h1&gt;
 
+&lt;p&gt;&lt;img src=&quot;../../assets/images/web-basic-server4.jpg&quot; alt=&quot;출처 : 인덕대학교 컴퓨터소프트웨어학과 유응구 교수님 (JSP 프로그래밍)강의 참고&quot; title=&quot;To go server4 image&quot; /&gt;&lt;/p&gt;
 
-내용 출처 : JSP프로그래밍(21-2학기)유응구교수님 강의 내용 中 일부 요약
-&lt;/search_part&gt;&lt;/file_path&gt;&lt;/domain_name&gt;&lt;/search_part&gt;&lt;/file_path&gt;&lt;/port_number&gt;&lt;/domain_name&gt;&lt;/http&gt;&lt;/scheme_specific_part&gt;&lt;/scheme_name&gt;</content><author><name>bruceHan</name></author><category term="cs" /><summary type="html">정적 웹 페이지 vs 동적 웹 페이지</summary></entry></feed>
+&lt;h3 id=&quot;웹-클라이언트웹-브라우저&quot;&gt;웹 클라이언트(웹 브라우저)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;웹 서비스를 요청하고 서버가 보내온 응답을 처리하여 출력하는 애플리케이션 또는 시스템&lt;/li&gt;
+  &lt;li&gt;요청은 해당 자원의 URL을 주소표시줄에 입력하거나 URL이 포함된 하이퍼링크를 클릭하면 된다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;웹-서버&quot;&gt;웹 서버&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;웹 서비스를 제공하는 애플리케이션 또는 시스템&lt;/li&gt;
+  &lt;li&gt;요청된 자원을 찾아서 http 응답을 클라이언트에게 제공&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;urluniform-resource-locator&quot;&gt;&lt;center&gt;URL(Uniform Resource Locator)&lt;/center&gt;&lt;/h1&gt;
+
+&lt;h3 id=&quot;정의-2&quot;&gt;정의&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;자원의 위치를 기술하는데 사용되는 식별자(Identifier)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;일반적인-구문-구조&quot;&gt;일반적인 구문 구조&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;scheme_name&gt;:&lt;scheme_specific_part&gt;
+&lt;/scheme_specific_part&gt;&lt;/scheme_name&gt;
+  &lt;/li&gt;
+  &lt;li&gt;scheme_name에는 http, ftp, news, mailto 등이 나타날 수 있고, scheme_specific_part는 scheme_name에 따라 다른 내용을 갖는다. ex) mailto:brucehan@kakao.com&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;www-구문-구조&quot;&gt;WWW 구문 구조&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;https://도메인 이름:[&lt;포트번호&gt;]/파일 경로?&lt;search_part&gt;&lt;/search_part&gt;&lt;/포트번호&gt;&lt;/li&gt;
+  &lt;li&gt;도메인 이름 : 웹 서버의 심볼릭 이름&lt;/li&gt;
+  &lt;li&gt;파일 경로(file_path) : 요청한 자원의 경로&lt;/li&gt;
+  &lt;li&gt;search_part(찾는 부분) : 웹 애플리케이션에게 전송되어야하는 매개변수와 값들&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;내용 출처 : JSP프로그래밍(21-2학기)유응구교수님 강의 내용 中 일부 요약&lt;/p&gt;</content><author><name>bruceHan</name></author><category term="cs" /><summary type="html"></summary></entry></feed>
