@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://intrager.github.io/author/bruceHan/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://intrager.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-12-28T06:38:50+00:00</updated>
+  <updated>2021-12-28T06:48:26+00:00</updated>
   <id>https://intrager.github.io/author/bruceHan/feed.xml</id>
 
   
@@ -169,6 +169,7 @@
 
 &lt;hr /&gt;
 &lt;h1 id=&quot;클라이언트-서버-모델&quot;&gt;&lt;center&gt;클라이언트-서버 모델&lt;/center&gt;&lt;/h1&gt;
+
 &lt;h3 id=&quot;정의-1&quot;&gt;정의&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;서비스나 자원을 제공하는 서버와 서비스를 요청하는 클라이언트로 나누어서 작업(task) 또는 작업 부하(workload)들을 처리하는 분산 애플리케이션 구조&lt;/li&gt;
@@ -219,6 +220,8 @@
   &lt;li&gt;요청된 자원을 찾아서 http 응답을 클라이언트에게 제공&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;hr /&gt;
+
 &lt;h1 id=&quot;urluniform-resource-locator&quot;&gt;&lt;center&gt;URL(Uniform Resource Locator)&lt;/center&gt;&lt;/h1&gt;
 
 &lt;h3 id=&quot;정의-2&quot;&gt;정의&lt;/h3&gt;
@@ -235,10 +238,11 @@
 
 &lt;h3 id=&quot;www-구문-구조&quot;&gt;WWW 구문 구조&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;https://도메인 이름:[&lt;포트번호&gt;]/파일 경로?&lt;search_part&gt;&lt;/search_part&gt;&lt;/포트번호&gt;&lt;/li&gt;
+  &lt;li&gt;http(s)://도메인 이름:[&lt;포트번호&gt;]/파일 경로?&lt;search_part&gt;&lt;/search_part&gt;&lt;/포트번호&gt;&lt;/li&gt;
   &lt;li&gt;도메인 이름 : 웹 서버의 심볼릭 이름&lt;/li&gt;
   &lt;li&gt;파일 경로(file_path) : 요청한 자원의 경로&lt;/li&gt;
   &lt;li&gt;search_part(찾는 부분) : 웹 애플리케이션에게 전송되어야하는 매개변수와 값들&lt;/li&gt;
+  &lt;li&gt;ex) http:// localhost : 8080 / webBasic ? name=bruceHan (붙여 쓰면 하이퍼링크로 되어서 일부러 띄어 썼습니다)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;내용 출처 : JSP프로그래밍(21-2학기)유응구교수님 강의 내용 中 일부 요약&lt;/p&gt;</content>
