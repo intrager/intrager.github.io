@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://intrager.github.io/tag/cs/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://intrager.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-12-28T06:30:55+00:00</updated>
+  <updated>2021-12-28T06:38:50+00:00</updated>
   <id>https://intrager.github.io/tag/cs/feed.xml</id>
 
   
@@ -138,11 +138,9 @@
 
 &lt;h3 id=&quot;일반적인-구문-구조&quot;&gt;일반적인 구문 구조&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;scheme_name&gt;:&lt;scheme_specific_part&gt;
-&lt;/scheme_specific_part&gt;&lt;/scheme_name&gt;
-  &lt;/li&gt;
-  &lt;li&gt;scheme_name에는 http, ftp, news, mailto 등이 나타날 수 있고, scheme_specific_part는 scheme_name에 따라 다른 내용을 갖는다. ex) mailto:brucehan@kakao.com&lt;/li&gt;
+  &lt;li&gt;스키마 이름:스키마의 특정 부분&lt;/li&gt;
+  &lt;li&gt;스키마 이름(scheme name)에는 http, ftp, news, mailto 등이 나타날 수 있고, 스키마의 특정 부분(scheme_specific_part)는 스키마 이름에 따라 다른 내용을 갖는다.&lt;/li&gt;
+  &lt;li&gt;ex) mailto:brucehan@kakao.com&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;www-구문-구조&quot;&gt;WWW 구문 구조&lt;/h3&gt;
