@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://intrager.github.io/author/bruceHan/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://intrager.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-12-28T18:03:40+00:00</updated>
+  <updated>2021-12-30T14:53:24+00:00</updated>
   <id>https://intrager.github.io/author/bruceHan/feed.xml</id>
 
   
@@ -146,7 +146,11 @@
 &lt;ul&gt;
   &lt;li&gt;인터넷에서 컴퓨터들이 서로 정보를 주고받는 데 쓰이는 통신규약(프로토콜)으로, 
 패킷 통신 방식의 인터넷 프로토콜인 IP(Internet Protocol)와 전송 조절 프로토콜인 TCP(Transmission Control Protocol)로 이루어져 있다.&lt;/li&gt;
-  &lt;li&gt;동작&lt;/li&gt;
+  &lt;li&gt;특징
+    &lt;ul&gt;
+      &lt;li&gt;IP는 패킷 전달&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
